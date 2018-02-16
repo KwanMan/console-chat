@@ -1,14 +1,14 @@
 {
   "name": "console-chat",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Chatroom in your console!",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Tommy Kwan",
+  "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.4",
     "node-telegram-bot-api": "^0.30.0",
