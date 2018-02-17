@@ -1,6 +1,6 @@
 {
   "name": "console-chat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Chatroom in your console!",
   "main": "server.js",
   "scripts": {
