@@ -6,7 +6,7 @@ module.exports = function createTelegramConnector (botToken, chatId) {
   let eventHandler = () => {}
 
   bot.onText(/(.*)/, ({ from, text }) => {
-    if (from.id === chatId) {
+    if (String(from.id) === String(chatId)) {
       eventHandler('chat-message', { message: text })
     }
   })
